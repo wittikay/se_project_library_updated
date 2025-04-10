@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triple Peaks Library</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-5"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#events">Events</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#staff-picks">Staff picks</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#membership">Become a member</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
+        <p class="header__description">
+          We're pleased to open our library doors to everyone! Come and expand
+          your development knowledge, or just use this lovely spot to work or
+          study. This is a cool place for cool students!
+        </p>
+        <img
+          src="./images/inside_the_library.svg"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a class="header__link" href="#about">About the library &darr;</a>
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Upcoming events:</h2>
+            <h3 class="events__title">
+              In honor of Joan Feynman: Women in astrophysics
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin"></div>
+                <p class="event-info__text">
+                  Triple Peaks Library Conference Hall & Online
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              At this event, which celebrates the library's namesake, our guest
+              lecturer will take us on a journey exploring some of the most
+              prominent female researchers in the world of space science. It's
+              easy to buy into the misconception that this field was mostly
+              dominated by men, but our lecture aims to change that notion and
+              prove that this hasn't been the case since at least the 18th
+              century.
+            </p>
+            <a href="#" class="events__more">More events &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              class="events__image"
+              src="./images/cafe-events.svg"
+              alt="An illustrated isometric view of a cafe, with an individual sitting down at the table within."
+            />
+            <figure class="person person_name_feynman">
+              <figcaption class="person__caption">Joan Feynman</figcaption>
+              <img
+                src="./images/person_feynman.png"
+                alt="A black and white image of Joan Feynman, she smiles at the camera."
+                class="person__image person__image_size_l"
+              />
+            </figure>
+            <figure class="person person_name_burbidge">
+              <figcaption class="person__caption">Margaret Burbidge</figcaption>
+              <img
+                src="./images/person_burbidge.png"
+                alt="A black and white side profile of Margaret Burbidge, she looks off into the foreground."
+                class="person__image person__image_size_m"
+              />
+            </figure>
+            <figure class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="A black and white image of Annie Jump Cannon diligently "
+                class="person__image person__image_size_m"
+              />
+              <figcaption class="person__caption">Annie Jump Cannon</figcaption>
+            </figure>
+            <figure class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="A black and white painting of Maria Mitchell. She appears to be painting."
+                class="person__image person__image_size_s"
+              />
+              <figcaption class="person__caption">Maria Mitchell</figcaption>
+            </figure>
+            <figure class="person person_name_tarter">
+              <figcaption class="person__caption">Jill Tarter</figcaption>
+              <img
+                src="./images/person_tarter.png"
+                alt="A black and white photograph of Jill Tarter. She smiles at the camera while resting on both arms."
+                class="person__image person__image_size_m"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="staff" id="staff-picks">
+          <h2 class="staff__title">Reader picks</h2>
+          <p class="staff__subtitle">That our readers love</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Hatchet</h3>
+                <p class="card__text">
+                  Brian Robeson, a thirteen-year-old boy, survives a plane crash
+                  in the Canadian wilderness. With only a hatchet, a gift from
+                  his mother, he learns to fend for himself. Over 54 days, he
+                  faces wild animals, harsh weather, and his own fears,
+                  ultimately discovering his inner strength and resilience.
+                </p>
+                <p class="card__footer">Gary Paulsen</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Holes</h3>
+                <p class="card__text">
+                  Stanley Yelnats is sent to Camp Green Lake, a juvenile
+                  detention center, for a crime he didn’t commit. The boys there
+                  are forced to dig holes every day, but Stanley soon realizes
+                  the warden is searching for a hidden treasure. As he digs, he
+                  uncovers secrets about his family’s past and breaks a family
+                  curse.
+                </p>
+                <p class="card__footer">Louis Sachar</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">My Side of the Mountain</h3>
+                <p class="card__text">
+                  Sam Gribley leaves his crowded New York City apartment to live
+                  in the Catskill Mountains. Seeking independence, he survives
+                  by building a home in a hollow tree, foraging for food, and
+                  taming a falcon named Frightful. Through his adventure, Sam
+                  learns valuable lessons about self-reliance and the importance
+                  of companionship.
+                </p>
+                <p class="card__footer">Jean Craighead George</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  The 7 Habits of Highly Effective People
+                </h3>
+                <p class="card__text">
+                  Stephen Covey’s guide to personal and professional success
+                  outlines seven habits: be proactive, begin with the end in
+                  mind, put first things first, think win-win, seek first to
+                  understand, then to be understood, synergize, and sharpen the
+                  saw. The book emphasizes a principle-centered approach,
+                  focusing on character development and long-term effectiveness.
+                  This book resonates with me closely as it taught me many
+                  practices I use to this day. I would reccomend this to anybody
+                  who wishes to increase their effectiveness in every aspect of
+                  their life.
+                </p>
+                <p class="card__footer">Stephen Covey</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="membership" id="membership">
+          <!-- --------------------------------------------------------------- -->
+          <!--         Don't uncomment until the final project stage           -->
+          <!-- --------------------------------------------------------------- -->
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Fill out the membership form online or in person.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Come pick up your library card at the front desk.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Sign the back of the card.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Enjoy all the awesome benefits of membership!
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="about" id="about">
+          <img
+            class="about__image"
+            src="./images/cafe-about.svg"
+            alt="Illustration 'Cafe'"
+          />
+          <div class="about__content">
+            <h2 class="about__title">About the library</h2>
+            <p class="about__paragraph">
+              Libraries are essential establishments in practically every city,
+              and the Triple Peaks Library is no exception. It first opened its
+              doors way back in 2018, right as our humble town began bidding
+              welcome to its very first citizens!
+            </p>
+            <p class="about__paragraph">
+              Since its initial opening, the library has seen nearly 342 monthly
+              visitors. That's almost 50% of our population! So far, most
+              citizens have enjoyed reading books and using our ample online
+              resources.
+            </p>
+            <p class="about__paragraph">
+              Become a member today, and make sure to check out our Staff Picks
+              section. This week's selection is full of books anyone interested
+              in computer programming would love!
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="The Triple Peaks Logo, containing a mountain range in the background. This logo is a white version."
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Social Media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="The Facebook logo, in white."
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="The Instagram logo, in white."
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Karl Wilson</p>
+      </footer>
+    </div>
+  </body>
+</html>
